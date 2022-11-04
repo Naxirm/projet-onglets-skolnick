@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-height: 100vh;
+  background-color: rgb(25, 24, 24);
+}
+.title {
+  text-align: center;
+  margin: 5rem auto;
+  color: orange;
+}
+h2 {
+  font-family: "Metal Mania", cursive;
+  font-size: 5rem;
+}
+h4 {
+  font-family: "Metal Mania", cursive;
+  color: orange;
+  font-size: 1.5rem;
+}
+h2,
+h4 {
+  text-transform: capitalize;
+}
+.section-center {
+  width: 90vw;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+@media screen and (min-width: 800px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 auto;
+    max-height: 60vh;
+  }
+}
+.about-img {
+  margin-bottom: 2rem;
+  max-width: 546px;
+}
+.about-img img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 25rem;
+  width: 100%;
+  max-width: 546px;
+  display: block;
+}
+.about {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  max-width: 546px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.btn-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tab-btn {
+  text-transform: uppercase;
+  background-color: rgb(95, 95, 95);
+  border: none;
+  padding: 1rem 2rem;
+  color: orange;
+  font-family: "Metal Mania", cursive;
+  font-size: 1.5rem;
+}
+.tab-btn:hover {
+  color: white;
+}
+.tab-btn:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+.tab-btn:nth-child(3) {
+  border-top-right-radius: 10px;
+}
+.content {
+  display: none;
+  padding: 1.5rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+h4 {
+  margin-bottom: 2rem;
+}
+.active {
+  display: block;
+  visibility: visible;
+  background-color: rgb(31, 31, 31);
+}
+.influence-card {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  row-gap: 1rem;
+  place-items: center;
+}
+.pic {
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+}
+.icon {
+  background-color: transparent;
+  color: orange;
+  border: none;
+  cursor: pointer;
+}
+.zikos {
+  text-transform: uppercase;
+  font-family: "Metal Mania", cursive;
+  color: orange;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}

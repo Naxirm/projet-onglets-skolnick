@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet onglets</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/600274bfeb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- contenu de la page -->
+    <section class="section">
+      <!-- partie titre -->
+      <div class="title">
+        <h2>about alex skolnick</h2>
+        <p>Lead guitarist of Testament and brilliant songwriter.</p>
+      </div>
+      <!-- contenu image + box avec les infos -->
+      <div class="section-center">
+        <!-- image -->
+        <article class="about-img">
+          <img
+            src="https://cdn.mos.cms.futurecdn.net/oDiUcxea7wt6k5Ui4Xz4QY.jpg"
+            alt="alex-skolnick"
+          />
+        </article>
+        <!-- box avec les infos -->
+        <article class="about">
+          <!-- boutons -->
+          <div class="btn-container">
+            <button class="tab-btn" data-id="bio">bio</button>
+            <button class="tab-btn" data-id="influences">influences</button>
+            <button class="tab-btn" data-id="materiel">materiel</button>
+          </div>
+          <!-- contenu descriptif -->
+          <article class="about-content">
+            <div class="content active" id="bio">
+              <h4>Bio</h4>
+              <p>
+                Alexander Nathan Skolnick (born September 29, 1968) is an
+                American musician. He is best known as the lead guitarist and
+                one of the songwriters of the thrash metal band Testament and
+                has played with several other bands, including The Alex Skolnick
+                Trio, Trans-Siberian Orchestra, Savatage and the heavy metal
+                supergroup Metal Allegiance. Skolnick began his musical career
+                at the age of 15 when he joined Legacy, which eventually became
+                Testament, and performed on five albums with them, between The
+                Legacy (1987) and The Ritual (1992). By the time he left
+                Testament in 1992, Skolnick had found considerable fame among
+                the thrash metal and guitar communities.After his first
+                departure from Testament, Skolnick went on to pursue various
+                musical careers, including briefly replacing Criss Oliva in
+                Savatage for their album Handful of Rain (1994), and starting
+                his jazz band The Alex Skolnick Trio in the early 2000s, which
+                remains active as of 2021. He briefly reunited with Testament in
+                2001 for the re-recordings of their early songs on the album
+                First Strike Still Deadly, and then returned to the band on a
+                permanent basis in 2005, contributing to four more albums.
+              </p>
+            </div>
+            <div class="content" id="influences">
+              <h4>influences</h4>
+              <div class="influence-card">
+                <img
+                  src="https://www.sweepyto.net/Res/Galeries/26671/malmsteen.png"
+                  alt="yngwie"
+                  class="pic"
+                  id="person-img"
+                />
+                <div class="button-container">
+                  <button class="prev-btn icon">
+                    <i class="fa-solid fa-angle-left"></i>
+                  </button>
+                  <button class="next-btn icon">
+                    <i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+                <div class="musician">
+                  <p class="zikos">yngwie malmsteen</p>
+                </div>
+              </div>
+            </div>
+            <div class="content" id="materiel">
+              <h4>materiel</h4>
+              <p>
+                Skolnick plays electric ESP Guitars and Godin hollow-bodied
+                models with Seymour Duncan pickups. He formerly played Heritage
+                and Ibanez guitars. In 2009 Heritage released Alex's first
+                signature guitar. His signature is a solid body based upon the H
+                150/157 model. In his early years with Testament he endorsed
+                Ibanez guitars and mainly played the 540SLTD model. Alex
+                endorsed Charvel guitars and was featured in their ads around
+                1995. For amplification, he uses Budda amps and several Marshall
+                amps including the discontinued Marshall ModeFour hybrid amps.
+                In 2013, Budda released a signature amp for Skolnick, called the
+                Preceptor, and later in the same year it was announced that
+                Skolnick was signed to ESP guitars, with an ESP and LTD model in
+                the works for 2014.
+              </p>
+            </div>
+          </article>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
